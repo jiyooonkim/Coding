@@ -38,7 +38,7 @@ def my_bfs(graph):
             visited.append(queue[0])
             node = queue.pop(0)
 
-            # 앞으로 탐색할 값 == 추가될 노드 에서 방문한 노드 뺀 값 추가
+            # 앞으로 탐색할 값 == 추가될 노드 에서 방문한 노드 뺀 값 추가(순서보장 필요)
             queue.extend([x for x in graph[node] if x not in visited])      # graph[node] - visited
             # print(" queue: ", queue)
             # print(" graph[node]: ", graph[node])

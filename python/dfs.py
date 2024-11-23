@@ -2,6 +2,7 @@
     dfs(Depth-First Search) - 깊이 우선 탐색
     https://nareunhagae.tistory.com/17
     https://codingopera.tistory.com/67
+    https://maktubi.tistory.com/73
 """
 
 
@@ -42,7 +43,7 @@ def my_dfs(graph):
             # print(" graph[node]: ", graph[node])
             # print(" visited: ", visited)
             # print(" dd: ", set(graph[node]) - set(visited))
-            stack = list((item for item in graph[node] if item not in visited)) + stack
+            stack = list((item for item in graph[node] if item not in visited)) + stack     # 순서 보장 필요
 
     print("visited : ", visited)
     return visited
