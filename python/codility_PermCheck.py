@@ -1,5 +1,3 @@
-# PermCheck
-
 def solution(A):
     # Implement your solution here\
     sorted_A = sorted(list(set(A)))
