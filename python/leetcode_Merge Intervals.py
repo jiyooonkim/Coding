@@ -28,5 +28,6 @@ class Solution:
 if __name__ == "__main__":
     intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
     # intervals = [[1, 4], [4, 5]]
+    # intervals = [[1, 8], [2, 5], [3, 4]]
     Solution.merge()
 
