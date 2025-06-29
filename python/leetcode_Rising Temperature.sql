@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+-- Write your MySQL query statement below
 
 select w1.id
 from Weather w1
